@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul{ text-decoration: none;}
+a{ text-decoration:none;color:#000;font-size:12px; }
+/*大，中，小*/
+img.m{width:25px;height:25px;}
+img.gm{width:88px;height:88x;}
+.my_small {  font-size: 0.8rem; }
+.my_header,.my_footer{width:100%;}
+/* 公共样式 */
+@media screen and (min-width:991px) {
+  .my_header  {height: 20rem;}
+  .my_footer { height: 50rem;widows: 100px;}
+}
+@media screen and (max-width:768px) {
+  /* .lb{width:50px;} */
+  .m-logo{display:none;}}
+  @media screen and (min-width:768px) {
+    /* 最小768 */
+    .logo{width:55px;height:94px;max-height:94px;} 
+    /* #lunbo,.lb{height:595px;width:1800px;} */
+    
+  }
+ @media screen and (min-width:992px) {
+   /* 最小992 */
+  .logo{width:55px;height:94px;max-height:94px;} 
+  .my_header{height:50rem;  }
+  .my_footer{ height:16rem; widows: 100px;}
+
+ }
+@media screen and (max-width:992px) {
+  /* 最大992 */
+  .logo{width:initial;height:initial;
+    max-height:60px;max-width:100px;}  
+     div.xp{display:none}
+     footer{display:none} 
+     div.three{display:none}
+     div.input-group{display:none}
+   
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+ /* 最小768，最大992 */
+    /* #lunbo,.lb{height:223px;width:991px;}  */
+}
+
+@media screen and (max-width:767px){
+  /* 最大767 */
+
+ 
+}
+/* solar terms */
+@media screen and (max-width:992px){
+  .container{max-width:1100px;margin:0 auto;}
+  /* container1.html */
+     .tp{display:none;}
+     .lc{width:660px;}
+     .jt{width:360px;height:200px;}
+ /* brand--->tp */
+ @media screen and (min-width:991px) {
+     .jt{width:660px;height:200px;}
+     .lc{width:660px;}
+ }
+ @media screen and (max-width:568px) {
+ .lc{width:560px;}
+ }
+
+
+/* /* 超小屏幕（手机，小于 768px） */
+/* 没有任何媒体查询相关的代码，因为这在 Bootstrap 中是默认的（还记得 Bootstrap 是移动设备优先的吗？） */
+
+/* 小屏幕（平板，大于等于 768px） */
+/* @media (min-width: @screen-sm-min) { ... } */
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+/* @media (min-width: @screen-md-min) { ... } */
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+/* @media (min-width: @screen-lg-min) { ... } */
+
